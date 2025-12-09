@@ -9,3 +9,25 @@ Los derrames de lixiviados producidos por desechos que no son tratados óptimame
 Es por esto que surge la necesidad de fortalecer los suelos de los rellenos sanitarios donde se disponen finalmente los residuos sólidos con capas permeables que eviten el transporte de lixiviados.
 
 En Chile, debido a los grandes problemas que provoca la deposición de lixiviados en los suelos, existen normas que regulan esta actividad, tales como la Ley 19300, que establece que todos los proyectos de saneamiento ambiental deben someterse al sistema de evaluación de impacto ambiental, y el Decreto Supremo N°46/2002, que tiene por objeto regular la descarga de contaminantes hacia aguas subterráneas, mediante la fijación de límites máximos permisibles para la descarga de residuos líquidos.
+
+## Explicación breve sistema modelado
+
+Para llevar a cabo la modelación del transporte, se consideró un sistema cartesiano unidireccional, con simetría del perfil de concentración en el plano horizontal y se modeló utilizando los siguientes supuestos:
+
+**I.** Se excluyen del estudio los fenómenos de transferencia producidos en las paredes laterales del relleno sanitario.
+
+**II.** El ancho de las capas del sistema es igual al mínimo establecido por la normativa chilena.
+
+**III.** Debido al bajo espesor de la geomembrana, sus efectos se modelan como una condición de borde.
+
+**IV.** El dominio del sistema empieza desde la superficie externa de la capa de arcilla compactada, que cuenta con un ancho mínimo de 60 cm y termina con una capa de tierra de 3 m.
+
+**V.** Debido a la muy baja conductividad hidráulica del HDPE y la arcilla compactada, se considera que no existe transporte advectivo en estos materiales. En las capas inferiores, se asume que el término advectivo no es despreciable.
+
+**VI.** Los contaminantes no reaccionan en el medio en que se transportan pero se incorpora término de decaimiento exponencial en el tiempo en la superficie externa de la geomembrana. Esto representa reacciones o descomposiciones que ocurren en el lixiviado acumulado antes de entrar en las capas del suelo.
+
+**VII.** Propiedades físicas como el coeficiente de difusividad en un material son constantes en el espacio y en el tiempo. Se utilizarán valores reportados en la literatura asumiendo que son aplicables para el contexto del modelo.
+
+**VIII.** Se desprecian los efectos de retención de solutos mediante adsorción y retención de agua. También se asume un sistema isotérmico y no se consideran efectos térmicos en la transferencia de materia. No se consideran fluctuaciones fluviales.
+
+**IX.** Se desprecian las posibles interacciones entre contaminantes en el proceso de transferencia de masa, tales como competencia por sitios de sorción, reacciones y fenómenos de difusión cruzada.
