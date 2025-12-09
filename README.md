@@ -12,7 +12,7 @@ En Chile, debido a los grandes problemas que provoca la deposición de lixiviado
 
 ## Explicación breve sistema modelado
 
-Para llevar a cabo la modelación del transporte, se consideró un sistema cartesiano unidireccional, con simetría del perfil de concentración en el plano horizontal y se modeló utilizando los siguientes supuestos:
+Para llevar a cabo la modelación del transporte, se consideró un sistema compuesto por tres capas: HDPE, arcilla compacta y tierra franco-arenosa. Para esto, se modeló un sistema cartesiano unidireccional con simetría del perfil de concentración en el plano horizontal, utilizando los siguientes supuestos:
 
 **I.** Se excluyen del estudio los fenómenos de transferencia producidos en las paredes laterales del relleno sanitario.
 
