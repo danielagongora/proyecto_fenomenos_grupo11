@@ -66,5 +66,5 @@ En cuanto a las discretizaciones realizadas, se discretizó la ecuación goberna
 
 Junto a esto, se discretizó la capa de tierra de la siguiente forma:
 <p align="center">
-  <img src="./imagenes/discretizacion tierra.png" alt="Diagrama" width="400">
+  <img src="./imagenes/discretizacion tierra.png" alt="Diagrama" width="700">
 </p>
