@@ -127,3 +127,6 @@ Asumiendo que la concentración del contaminante en el seno del fluido (caq) es 
 </p>
 El valor del coeficiente de transferencia asumido para el cloruro y nitrato fue de  5.0×10-7 (m×s-1).
 
+## Instrucciones para ejecutar el código
+Para la correcta ejecución del código se debe acceder a la carpeta "Códigos" de este repositorio. Allí se encuentran dos archivos .ipynb: "Sistema Simplificado", que tiene la implementación FTCS para la capa de arcilla y no considera la condición de borde de interfases; y "Sistema Multicapa", el cual contiene la implementación FTCS para un sistema con 2 capas (arcilla y tierra). Cada uno tiene sus respectivas anotaciones para mayor claridad y deben ejecutarse desde la primera celda hasta la última.
+
