@@ -45,13 +45,13 @@ Luego de realizar el balance de materia de un compuesto α en un volumen diferen
 </p>
 Además, debido a los supuestos considerados, se hace la distinción para las capas de arcilla y tierra. Por lo que para cada una se obtienen las siguientes ecuaciones gobernantes:
 
-# Ecuación barrera de arcilla:
+### Ecuación barrera de arcilla:
 
 <p align="center">
   <img src="./imagenes/ecuacion arcilla.png" alt="Diagrama" width="400">
 </p>
 
-# Ecuación capa natural de tierra:
+### Ecuación capa natural de tierra:
 
 <p align="center">
   <img src="./imagenes/ecuacion tierra.png" alt="Diagrama" width="400">
