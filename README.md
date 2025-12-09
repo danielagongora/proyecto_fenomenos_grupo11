@@ -31,3 +31,7 @@ Para llevar a cabo la modelación del transporte, se consideró un sistema carte
 **VIII.** Se desprecian los efectos de retención de solutos mediante adsorción y retención de agua. También se asume un sistema isotérmico y no se consideran efectos térmicos en la transferencia de materia. No se consideran fluctuaciones fluviales.
 
 **IX.** Se desprecian las posibles interacciones entre contaminantes en el proceso de transferencia de masa, tales como competencia por sitios de sorción, reacciones y fenómenos de difusión cruzada.
+
+La siguiente imagen representa el sistema modelado:
+
+
