@@ -38,4 +38,6 @@ La siguiente imagen representa el sistema modelado:
   <img src="./imagenes/sistema.png" alt="Diagrama" width="400">
 </p>
 
+## Descripción del método numérico utilizado
+
 
