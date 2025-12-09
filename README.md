@@ -35,13 +35,13 @@ Para llevar a cabo la modelación del transporte, se consideró un sistema compu
 La siguiente imagen representa el sistema modelado:
 
 <p align="center">
-  <img src="./imagenes/sistema.png" alt="Diagrama" width="400">
+  <img src="./imagenes/sistema.png" alt="Diagrama" width="200">
 </p>
 
 ## Descripción del método numérico utilizado
 Luego de realizar el balance de materia de un compuesto α en un volumen diferencial rectangular en una capa del sistema, se llegó a la siguiente ecuación gobernante:
 <p align="center">
-  <img src="./imagenes/ecuacion general.png" alt="Diagrama" width="400">
+  <img src="./imagenes/ecuacion general.png" alt="Diagrama" width="300">
 </p>
 Además, debido a los supuestos considerados, se hace la distinción para las capas de arcilla y tierra. Por lo que para cada una se obtienen las siguientes ecuaciones gobernantes:
 
@@ -61,7 +61,7 @@ De este modo,  las ecuaciones gobernantes para las capas corresponden a un balan
 
 En cuanto a las discretizaciones realizadas, se discretizó la ecuación gobernante de la barrera de arcilla para un contaminante dado (con su respectiva difusividad) mediante el método Forward Time-Centered Space (FTCS), lo cual se puede ver en la siguiente imagen:
 <p align="center">
-  <img src="./imagenes/discretizacion arcilla.png" alt="Diagrama" width="400">
+  <img src="./imagenes/discretizacion arcilla.png" alt="Diagrama" width="600">
 </p>
 
 Junto a esto, se discretizó la capa de tierra de la siguiente forma:
