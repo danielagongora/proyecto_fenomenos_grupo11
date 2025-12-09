@@ -35,7 +35,7 @@ Para llevar a cabo la modelación del transporte, se consideró un sistema carte
 La siguiente imagen representa el sistema modelado:
 
 <p align="center">
-  <img src="./Imágenes/Sistema.png" alt="Diagrama" width="400">
+  <img src="./imagenes/sistema.png" alt="Diagrama" width="400">
 </p>
 
 
