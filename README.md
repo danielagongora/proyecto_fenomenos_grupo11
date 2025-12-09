@@ -144,5 +144,9 @@ Ante esto, se propuso modelar un sistema solamente compuesto por la geomembrana 
   <img src="./imagenes/resultados_2.png" alt="Diagrama" width="700">
 </p>
 
-Así, se puede observar la lenta progresión de concentración en la barrera debido al movimiento puramente difusivo. No obstante, para estimaciones más allá de 6 años el sistema numérico se desestabilizaba, por lo que no se pudo obtener proyecciones en rangos más comunes para vidas útiles de rellenos sanitarios (hasta 50 años o más). A partir de estos datos, se estimó que en promedio, las concentraciones de cloruro y nitrato aumentaban en 1.2 y 0.005 mg/L por año en los primeros 10 cm de barrera.  
+Así, se puede observar la lenta progresión de concentración en la barrera debido al movimiento puramente difusivo. No obstante, para estimaciones más allá de 6 años el sistema numérico se desestabilizaba, por lo que no se pudo obtener proyecciones en rangos más comunes para vidas útiles de rellenos sanitarios (hasta 50 años o más). A partir de estos datos, se estimó que en promedio, las concentraciones de cloruro y nitrato aumentaban en 1.2 y 0.005 mg/L por año en los primeros 10 cm de barrera.
+
+### Ubicación de gráficos generados
+
+Se pueden encontrar todas las imágenes utilizadas en la carpeta "imagenes" al inicio del repositorio. El primer y segundo gráfico presentado se pueden encontrar como "resultados_1" y "resultados_2" respectivamente.
 
