@@ -109,7 +109,9 @@ Si este término se reemplaza en la definición del flujo de la cara, se obtiene
   <img src="./imagenes/cb5_2.png" alt="Diagrama" width="400">
 </p>
 Considerando este flujo en la ecuación gobernante para la concentración cm, se obtiene:
-##agregar
+<p align="center">
+  <img src="./imagenes/cb5_2_2.png" alt="Diagrama" width="400">
+</p>
 Con una derivación similar para cm+1 se obtiene:
 <p align="center">
   <img src="./imagenes/cb5_3.png" alt="Diagrama" width="400">
