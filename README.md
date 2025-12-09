@@ -48,13 +48,13 @@ Además, debido a los supuestos considerados, se hace la distinción para las ca
 ### Ecuación barrera de arcilla:
 
 <p align="center">
-  <img src="./imagenes/ecuacion arcilla.png" alt="Diagrama" width="300">
+  <img src="./imagenes/ecuacion arcilla.png" alt="Diagrama" width="200">
 </p>
 
 ### Ecuación capa natural de tierra:
 
 <p align="center">
-  <img src="./imagenes/ecuacion tierra.png" alt="Diagrama" width="400">
+  <img src="./imagenes/ecuacion tierra.png" alt="Diagrama" width="200">
 </p>
 
 De este modo,  las ecuaciones gobernantes para las capas corresponden a un balance de masa diferencial (transiente y 1-D) que considera transporte de los contaminantes sólo por difusión en la barrera de arcilla y además el arrastre advectivo en la capa de suelo.
