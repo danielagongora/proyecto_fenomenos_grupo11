@@ -74,13 +74,13 @@ Además, se consideraron las siguientes condiciones inicialesw y de borde:
 **1.Condiciones iniciales en el tiempo:** Inicialmente (en t = 0), no hay contaminantes dentro del sistema de contención.
 
 <p align="center">
-  <img src="./imagenes/cb1.png" alt="Diagrama" width="400">
+  <img src="./imagenes/cb1.png" alt="Diagrama" width="200">
 </p>
 
 **2.Cambio de concentración temporal en borde espacial superior:** De acuerdo a los supuestos considerados, sí existe contaminante listo para ingresar al otro lado de la geomembrana, y su concentración cambia con el tiempo.
 
 <p align="center">
-  <img src="./imagenes/cb2.png" alt="Diagrama" width="400">
+  <img src="./imagenes/cb2.png" alt="Diagrama" width="200">
 </p>
 
 **3.Flujo de entrada a través de geomembrana:** El flujo difusivo de contaminante en el límite superior del dominio se iguala a un término proporcional a la diferencia de concentraciones entre el lixiviado y el primer nodo del suelo. Esta formulación representa el transporte a través de la geomembrana sin necesidad de discretizar su espesor.
@@ -97,7 +97,7 @@ El valor del coeficiente de transferencia asumido para ambos compuestos fue de  
 
 **4.Continuidad de concentraciones:** La concentración del contaminante es idéntica justo a un lado y al otro de la separación entre dos materiales; no hay "saltos" bruscos de concentración en el punto.
 <p align="center">
-  <img src="./imagenes/cb4.png" alt="Diagrama" width="400">
+  <img src="./imagenes/cb4.png" alt="Diagrama" width="300">
 </p>
 
 **5.Continuidad del flujo dispersivo:** Sea cm la concentración asociada al último nodo de la capa de arcilla, cm+1 la concentración asociada al primer nodo de la capa de tierra  y cm+1/2  la concentración en la cara entre ambos, el flujo asociado a esta cara por la condición de continuidad cumple: 
