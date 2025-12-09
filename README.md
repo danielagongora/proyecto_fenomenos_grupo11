@@ -123,7 +123,7 @@ Con una derivación similar para cm+1 se obtiene:
 </p>
 Asumiendo que la concentración del contaminante en el seno del fluido (caq) es despreciable, la discretización y definición de concentración en el último nodo es:
 <p align="center">
-  <img src="./imagenes/cb6_2.png" alt="Diagrama" width="400">
+  <img src="./imagenes/cb6_2.png" alt="Diagrama" width="700">
 </p>
 El valor del coeficiente de transferencia asumido para el cloruro y nitrato fue de  5.0×10-7 (m×s-1).
 
