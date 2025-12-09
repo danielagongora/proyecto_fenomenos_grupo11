@@ -35,20 +35,20 @@ Para llevar a cabo la modelación del transporte, se consideró un sistema compu
 La siguiente imagen representa el sistema modelado:
 
 <p align="center">
-  <img src="./imagenes/sistema.png" alt="Diagrama" width="200">
+  <img src="./imagenes/sistema.png" alt="Diagrama" width="400">
 </p>
 
 ## Descripción del método numérico utilizado
 Luego de realizar el balance de materia de un compuesto α en un volumen diferencial rectangular en una capa del sistema, se llegó a la siguiente ecuación gobernante:
 <p align="center">
-  <img src="./imagenes/ecuacion general.png" alt="Diagrama" width="300">
+  <img src="./imagenes/ecuacion general.png" alt="Diagrama" width="200">
 </p>
 Además, debido a los supuestos considerados, se hace la distinción para las capas de arcilla y tierra. Por lo que para cada una se obtienen las siguientes ecuaciones gobernantes:
 
 ### Ecuación barrera de arcilla:
 
 <p align="center">
-  <img src="./imagenes/ecuacion arcilla.png" alt="Diagrama" width="400">
+  <img src="./imagenes/ecuacion arcilla.png" alt="Diagrama" width="300">
 </p>
 
 ### Ecuación capa natural de tierra:
