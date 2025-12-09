@@ -134,7 +134,15 @@ Para la correcta ejecución del código se debe acceder a la carpeta "Códigos" 
 
 Las formas discretizadas de las ecuaciones gobernantes y las respectivas condiciones de borde, se implementaron como un sistema de ecuaciones matricial en Python, utilizando una grilla computacional equivalente a 360 cm y una escala de tiempo en meses. La implementación del método FTCS no funcionó; se sospecha que esto ocurrió por los valores relativamente altos de difusividad efectiva en comparación al parámetro de estabilidad del sistema. El gráfico siguiente presenta la desviación obtenida por implementación FTCS de sistema multicapas: 
 
+<p align="center">
+  <img src="./imagenes/resultados_1.png" alt="Diagrama" width="700">
+</p>
+
 Ante esto, se propuso modelar un sistema solamente compuesto por la geomembrana y la barrera de arcilla. Se aplicaron las mismas condiciones de borde a excepción de la 4 y 5, mientras que la sexta condición se ajustó al sistema simplificado. Los perfiles de concentración de contaminantes en la barrera de arcilla en un rango de 6 años se pueden ver en el gráfico a continuación:
+
+<p align="center">
+  <img src="./imagenes/resultados_2.png" alt="Diagrama" width="700">
+</p>
 
 Así, se puede observar la lenta progresión de concentración en la barrera debido al movimiento puramente difusivo. No obstante, para estimaciones más allá de 6 años el sistema numérico se desestabilizaba, por lo que no se pudo obtener proyecciones en rangos más comunes para vidas útiles de rellenos sanitarios (hasta 50 años o más). A partir de estos datos, se estimó que en promedio, las concentraciones de cloruro y nitrato aumentaban en 1.2 y 0.005 mg/L por año en los primeros 10 cm de barrera.  
 
